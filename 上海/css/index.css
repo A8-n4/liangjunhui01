@@ -1,0 +1,33 @@
+.banner-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5%;
+  overflow: hidden;
+}
+.banner-1 .video {
+  width: 250px;
+  height: 290px;
+  border-radius: 15px;
+}
+.banner-1 .banner-right {
+  width: 68%;
+  height: 250px;
+  background-color: skyblue;
+  padding: 20px 20px;
+  overflow-y: scroll;
+  border-radius: 15px;
+}
+.banner-1 .banner-right p {
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+.banner-1 .banner-right::-webkit-scrollbar {
+  display: none;
+}
+.banner-1 .banner-left {
+  overflow: hidden;
+}
+.banner-right{
+  margin-bottom: 40px;
+}

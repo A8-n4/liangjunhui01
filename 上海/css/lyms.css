@@ -1,0 +1,37 @@
+.dftc{
+    padding: 20px 60px 60px;
+}
+.dftc h2{
+    text-align: center;
+}
+
+.dftc ul{
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+.dftc ul li{
+    background-color: #52c2ff;
+    box-shadow: rgb(169, 169, 169) 3px 3px 3px 1px;
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.dftc ul li img{
+    height: 160px;
+    width: 250px;
+    box-shadow: darkgrey 3px 3px 3px 1px;
+    border: 8px solid #caeaf8;
+    border-radius: 10px; 
+    transition: transform 0.3s;
+}
+.dftc ul li p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+.dftc ul li img:hover{
+    transform: scale(1.9);
+}

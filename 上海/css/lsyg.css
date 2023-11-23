@@ -1,0 +1,21 @@
+main h1{
+    text-align: center;
+    margin: 30px;
+}
+.box{
+    margin: 0 auto;
+    width: 900px;
+}
+.box p{
+    line-height: 30px;
+    font-size: 22px;
+    text-indent: 2em;
+    margin-top: 10px;
+}
+.pic{
+    width: 800px;
+    margin: 0 auto;
+}
+.pic img{
+    width: 800px;
+}

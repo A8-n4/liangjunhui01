@@ -1,0 +1,113 @@
+.box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.box div {
+  height: 500px;
+  width: 19%;
+  overflow: hidden;
+  transition: 0.5s all ease;
+  border-radius: 15px;
+  position: relative;
+}
+
+.box div p {
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+  
+}
+
+.box div:hover {
+  width: 70%;
+}
+
+
+
+
+.fjms {
+  padding: 20px 60px 60px;
+}
+
+.fjms ul li {
+  height: 300px;
+  position: relative;
+  margin-top: 60px;
+  display: flex;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.fjms ul li h3 {
+  text-align: center;
+  font-size: 23px;
+}
+
+.fjms ul li p {
+  line-height: 25px;
+  margin-top: 10px;
+}
+.fjms ul li:nth-child(even) .wenzi{
+  position: absolute;
+  left: 0;
+}
+
+.fjms .wenzi {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  width: 570px;
+}
+.fjms .wenzi p{
+  font-size: 19px;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all .5s ease;
+}
+
+.item img {
+  width: 200px;
+  height: 300px;
+}
+
+.item div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 30px;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: #fff;
+  transition: all 0.3s ease;
+  transform: translateX(100%);
+}
+
+.item:hover div {
+  transform: translateX(0);
+}
+
+.item:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  transform: rotateX(10deg) rotateY(10deg) rotateZ(10deg);
+}

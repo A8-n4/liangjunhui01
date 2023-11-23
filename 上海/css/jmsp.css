@@ -1,0 +1,81 @@
+.gl li{
+  display: flex;
+  padding: 20px;
+  margin-left: 120px;
+
+}
+.gl li img{
+  width: 380px;
+  height: 240px;
+  margin-top: 20px;
+}
+.gl li div{
+  padding: 30px;
+}
+.gl li p{
+  line-height: 30px;
+  font-size: 20px;
+}
+
+#piczhanshi {
+	width: 976px;
+	margin-right: 8px;
+	margin-left: 8px;
+	float: left;
+	height: 165px;
+	border: 2px solid #999999;
+	background-color: #F3F3F3;
+	margin-bottom: 10px;
+}
+#tupian {
+	width: 966px;
+	height: 165px;
+	float: left;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+#demo {
+	float: left;
+	height: 165px;
+	width: 966px;
+	overflow: hidden;
+}
+
+
+#daohang a:link {
+	color: #064278;
+	text-decoration: none;
+}
+#daohang a:visited {
+	color: #064278;
+	text-decoration: none;
+}
+#daohang a:hover {
+	color: #FFFFFF;
+	background-image: url(../images/linkbackground.gif);
+	display: block;
+	height: 37px;
+	width: 100px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#bottom {
+	line-height: 30px;
+	color: #FFFFFF;
+	height: 30px;
+	width: 1000px;
+	text-align: center;
+	font-size: 14px;
+	float: left;
+}
+#main #bottom a:link {
+	color: #FFFFFF;
+}
+#main #bottom a:visited {
+	color: #FFFFFF;
+}
+#main #bottom a:hover {
+	color: #FCA62B;
+}
